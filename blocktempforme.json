@@ -1,0 +1,53 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.16.200",
+	"minecraft:block": {
+		"description": {
+			"identifier": "change:this",
+			"components": {
+				"minecraft:destroy_time": 4,
+				"minecraft:block_light_emission": 0,
+				"minecraft:block_light_absorption": 0,
+				"minecraft:map_color": "#1778D2",
+				"minecraft:flammable": {
+					"burn_odds": 0.5,
+					"flame_odds": 0.2
+				},
+				"minecraft:material_instances": {
+					"*": {
+						"render_method": "opaque",
+						"texture": "changethis"
+					}
+				},
+				"minecraft:pick_collision": {
+					"origin": [
+						-8,
+						0,
+						-8
+					],
+					"size": [
+						16,
+						16,
+						16
+					]
+				},
+				"minecraft:entity_collision": {
+					"origin": [
+						-8,
+						0,
+						-8
+					],
+					"size": [
+						16,
+						16,
+						16
+					]
+				},
+				"minecraft:geometry": "geometry.changethisidot"
+			},
+			"is_experimental": false
+		},
+		"components": {},
+		"events": {}
+	}
+}
